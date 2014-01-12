@@ -3,18 +3,20 @@ layout: page
 title : yo
 tags : [how-to, jekyll]
 ---
-<ul>
-{% for year in site.data.timeline %}
-  {% for event in year.events %}
-    <div class="pointer"></div>
-    <li class="event">
-      <div class="wrapper">
-        <span class="title">{{ event.title }}</span>
-        <span class="details">{{ event.date }} | {{ event.location }}</span>
-        {{ event.text }}
-      </div>
-    </li>
-  {% endfor %}
-  <span class="year">{{ year.year }}</span>
-{% endfor %}
-</ul>
+<section class="timeline">
+  <ul class="timeline">
+    {% for year in site.data.timeline %}
+      {% for event in year.events %}
+        <div class="pointer"></div>
+        <li class="event">
+          <div class="wrapper">
+            <span class="title">{{ event.title }}</span>
+            <span class="details">{{ event.date }} | {{ event.location }}</span>
+            {{ event.text }}
+          </div>
+        </li>
+      {% endfor %}
+      <span class="year">{{ year.year }}</span>
+    {% endfor %}
+  </ul>
+</section>
