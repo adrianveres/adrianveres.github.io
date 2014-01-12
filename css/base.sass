@@ -1,0 +1,50 @@
+$nice-gray: #ded
+$timeline-color: #eee
+$emphasis-color: #D31C18
+
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic|Open+Sans:400,600)
+
+body
+  font-family: 'Open Sans', sans-serif
+
+.container
+  margin: 0 auto
+  width: 90%
+  max-width: 920px
+  background: linear-gradient(90deg, $timeline-color 5px,  rgba(0,0,0,0) 2px)
+  background-position: 100% 0%
+  background-repeat: repeat-y
+  background-size: 50%
+  text-align: center
+
+li.event
+  width: 46%
+  text-align: right
+  font-family: 'Gentium Basic', serif
+
+  span.title
+    font-family: 'Open Sans', sans-serif
+    font-weight: 600
+    display: block
+    text-transform: uppercase
+    color: $emphasis-color
+
+  span.details
+    display: block
+    margin: 5px 0 15px 0
+    color: #ddd
+
+.pointer
+  position: absolute
+  left: 50%
+  height: 12px
+  border: 5px solid #fff
+  border-radius: 30px
+  background: $emphasis-color
+  margin: -1px 0 0 -8px
+  width: 12px
+  z-index: 3
+
+li.event:nth-of-type(even)
+  margin-left: 54%
+  text-align: left

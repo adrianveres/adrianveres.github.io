@@ -1,1 +1,17 @@
-Hello World
+---
+layout: page
+title : yo
+tags : [how-to, jekyll]
+---
+<ul>
+{% for year in site.data.timeline %}
+  {% for event in year.events %}
+    <li class="event">
+      <div class="pointer"></div>
+      <span class="title">{{ event.title }}</span>
+      <span class="details">{{ event.date }} | {{ event.location }}</span>
+      {{ event.text }}
+    </li>
+  {% endfor %}
+{% endfor %}
+</ul>

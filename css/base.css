@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic|Open+Sans:400,600);
+/* line 7, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 10, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 920px;
+  background: linear-gradient(90deg, #eeeeee 5px, rgba(0, 0, 0, 0) 2px);
+  background-position: 100% 0%;
+  background-repeat: repeat-y;
+  background-size: 50%;
+  text-align: center;
+}
+
+/* line 20, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+li.event {
+  width: 46%;
+  text-align: right;
+  font-family: "Gentium Basic", serif;
+}
+/* line 25, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+li.event span.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  display: block;
+  text-transform: uppercase;
+  color: #d31c18;
+}
+/* line 32, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+li.event span.details {
+  display: block;
+  margin: 5px 0 15px 0;
+  color: #dddddd;
+}
+
+/* line 37, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+.pointer {
+  position: absolute;
+  left: 50%;
+  height: 12px;
+  border: 5px solid white;
+  border-radius: 30px;
+  background: #d31c18;
+  margin: -1px 0 0 -8px;
+  width: 12px;
+  z-index: 3;
+}
+
+/* line 48, /Users/averes/Projects/Homepage/adrianveres.github.io/css/base.sass */
+li.event:nth-of-type(even) {
+  margin-left: 54%;
+  text-align: left;
+}

@@ -1,0 +1,42 @@
+- year: 2012
+  events:
+    - title: Graduated from Harvard College
+      date: May 2012
+      text: "I graduated with an A.B. <i>summa cum laude</i> in Chemistry & Physics. These were four amazing years spent among amazing people."
+- year: 2009
+  events:
+    - title: Internship in Darxacq lab
+      date: Summer 2009
+      text: "Had a great time!"
+- year: 2008
+  events:
+    - title: Joined the Kishony lab
+      date: November
+      location: Harvard Medical School
+      text: "Started working in systems biology"
+    - title: Graduated from CEGEP
+      date: May
+      location: Brebeuf
+      text: "I graduated from the International Baccalaureate & DEC Sciences de la Nature dual degree program."
+- year: 2007
+  events:
+    - title: Participated in 2007 Intel ISEF
+      date: May
+      location: Albuquerque
+      text: "My project on DNA computers received a 1st Award in Biochemistry."
+- year: 2006
+  events:
+    - title: Graduated from secondary school
+      date: May
+      location: Brebeuf
+      text: "I obtained my secondary school diploma from Brebeuf."
+    - title: Participated in 2006 Intel ISEF
+      date: May
+      location: Indianapolis
+      text: "My project a microfluidic biosensor received a Best-in-Category award in Biochemistry."
+- year: 2005
+  events:
+    - title: Participated in 2005 Intel ISEF
+      date: May
+      location: Phoenix
+      text: "My project on DNA computers received a 1st Award in Biochemistry."
